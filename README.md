@@ -10,7 +10,7 @@ Starting from the general heat conduction equation with no internal generation:
 ```
 Select the 1-D heat conduction type:
 ```math
-k \frac{\partial^2 T}{\partial x^2} = \rho c_p \frac{\partial T}{\partial} t
+k \frac{\partial^2 T}{\partial x^2} = \rho c_p \frac{\partial T}{\partial t}
 ```
 With 
 ```math
