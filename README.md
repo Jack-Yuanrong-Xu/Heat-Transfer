@@ -1,17 +1,15 @@
 Heat Transfer Setup
 
 ## Purpose
-Simulate 1-D Transient Heat Transfer using numerical methods and plot out the results.
+Simulate 1-D Transient Heat Transfer using numerical methods and plot out the results
 
 ## Governing Equation
 Starting from the general heat conduction equation with no internal generation:
-$$
+```math
 \nabla \cdot (k \nabla T) = \rho c_p \frac{\partial T}{\partial t}
-$$
+```
 Select the 1-D heat conduction type:
-$$
-k \frac{\partial^2 T}{\partial x^2} = \rho c_p \frac{\partial T}{\partial t}
-$$
+$$k \frac{\partial^2 T}{\partial x^2} = \rho c_p \frac{\partial T}{\partial t$$
 With 
 $\alpha = \frac{k}{\rho c_p}$,
 the equation becomes:
