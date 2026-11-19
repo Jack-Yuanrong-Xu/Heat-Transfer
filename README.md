@@ -38,7 +38,7 @@ $T(0,t) = T_s, \quad T(L,t) = T_s$
 We start by choosing dimentionless groups:
 ```math
 \theta = \frac{T-T_\infty}{T_i - T_\infty}; \qquad \xi = \frac{x}{L_c}; \qquad \tau = \frac{t}{t_c}
-
+```
 Re-organizing them we obtain:
 ```math
 T = \theta(T_i-T_\infty) + T_\infty, \qquad x = \xi L_c, \qquad t = \tau t_c
