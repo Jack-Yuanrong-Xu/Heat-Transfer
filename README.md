@@ -34,36 +34,31 @@ $T(0,t) = T_s, \quad T(L,t) = T_s$
 
 ## Nondimensionalization
 
-**Dimensionless Groups**
-\\
+**Dimensionless Groups**\
 We start by choosing dimentionless groups:
 ```math
 \theta = \frac{T-T_\infty}{T_i - T_\infty}, \qquad \xi = \frac{x}{L_c}, \qquad \tau = \frac{t}{t_c}
 ```
-\\
 Re-organizing them we obtain:
 ```math
 T = \theta(T_i-T_\infty) + T_\infty, \qquad x = \xi L_c, \qquad t = \tau t_c
 ```
 
-**Substitution.** 
-\\
+**Substitution.** \
 Substituting the dimentionless groups into the equation
 ```math
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
 ```
-\\
 we can obtain
 ```math
 \frac{T_i - T_\infty}{t_c} \frac{\partial \theta}{\partial \tau} = \alpha \frac{T_i - T_\infty}{L_c^2} \frac{\partial^2 \theta}{\partial \xi^2}
 ```
-\\
 cancelling the term $(T_i-T_\infty)$ and regrouping we get:
 ```math
 \frac{\partial \theta}{\partial \tau} = \frac{\alpha t_c}{L_c^2} \frac{\partial^2 \theta}{\partial \xi^2}
 ```
 
-**Choice of  scale.** 
+**Choice of  scale.** \
 Since the dimention is typically given, we choose the length scale
 ```math
 L_c = L
@@ -73,11 +68,10 @@ and we choose the time scale to allow $\frac{\alpha t_c}{L^2} = 1$:
 t_c = \frac{L^2}{\alpha}
 ```
 
-**Result.**
-
+**Result.**\
 Notice that the dimentionless time variable $\tau$ actually equals to the Fourier's Number $\mathrm{Fo}}$. 
 ```math
-\tau = \frac{t}{t_c} = \frac{\alpha t}{L^2} = \mathrm{Fo}}$
+\tau = \frac{t}{t_c} = \frac{\alpha t}{L^2} = \mathrm{Fo}}
 ```
 Our dimnetionless equation becomes:
 ```math
@@ -85,7 +79,6 @@ Our dimnetionless equation becomes:
 
 ```
 
-**Interpretation.** 
-\\
+**Interpretation.** \
 Fo is the ratio of the time elapsed to the diffusion time across the wall, $L^2/\alpha$.
 
