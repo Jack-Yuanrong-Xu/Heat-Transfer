@@ -70,12 +70,13 @@ t_c = \frac{L^2}{\alpha}
 
 **Result**\
 Notice that the dimentionless time variable $\tau$ actually equals to the Fourier's Number $\mathrm{Fo}$. 
+
 ```math
-\tau = \frac{t}{t_c} = \frac{\alpha t}{L^2} = \mathrm{Fo}}
+\tau = \frac{t}{t_c} = \frac{\alpha t}{L^2} = \mathrm{Fo}
 ```
 Our dimnetionless equation becomes:
 ```math
-\frac{\partial \theta}{\partial \mathrm{Fo}}} = \frac{\partial^2 \theta}{\partial \xi^2}, \qquad \mathrm{Fo} = \frac{\alpha t}{L^2}
+\frac{\partial \theta}{\partial \mathrm{Fo}} = \frac{\partial^2 \theta}{\partial \xi^2}, \qquad \mathrm{Fo} = \frac{\alpha t}{L^2}
 
 ```
 
