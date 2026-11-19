@@ -95,5 +95,8 @@ Recall that
 T(x,0) = T_i,\qquad
 t = 0,\qquad
 \tau = 0,\qquad
-\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1, 0 < \xi < 1
+\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1, 
+```
+```math
+\theta (\xi, 0) = 1, \qquad 0 < \xi < 1
 ```
