@@ -44,7 +44,7 @@ Re-organizing them we obtain:
 T = \theta(T_i-T_\infty) + T_\infty, \qquad x = \xi L_c, \qquad t = \tau t_c
 ```
 
-**Substitution.** \
+**Substitution** \
 Substituting the dimentionless groups into the equation
 ```math
 \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
@@ -58,7 +58,7 @@ cancelling the term $(T_i-T_\infty)$ and regrouping we get:
 \frac{\partial \theta}{\partial \tau} = \frac{\alpha t_c}{L_c^2} \frac{\partial^2 \theta}{\partial \xi^2}
 ```
 
-**Choice of  scale.** \
+**Choice of  scale** \
 Since the dimention is typically given, we choose the length scale
 ```math
 L_c = L
@@ -68,8 +68,8 @@ and we choose the time scale to allow $\frac{\alpha t_c}{L^2} = 1$:
 t_c = \frac{L^2}{\alpha}
 ```
 
-**Result.**\
-Notice that the dimentionless time variable $\tau$ actually equals to the Fourier's Number $\mathrm{Fo}}$. 
+**Result**\
+Notice that the dimentionless time variable $\tau$ actually equals to the Fourier's Number $\mathrm{Fo}$. 
 ```math
 \tau = \frac{t}{t_c} = \frac{\alpha t}{L^2} = \mathrm{Fo}}
 ```
