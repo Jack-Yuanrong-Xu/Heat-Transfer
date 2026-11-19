@@ -90,10 +90,10 @@ Recall that
 \theta = \frac{T-T_\infty}{T_i - T_\infty}, \qquad \xi = \frac{x}{L_c}, \qquad \tau = \frac{t}{t_c}
 ```
 
-**IC**\
+**IC**
 ```math
-T(x,0) = T_i,\
-t = 0,\
-\tau = 0,\
+T(x,0) = T_i,\\
+t = 0,\\
+\tau = 0,\\
 \theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1, 0 < \xi < 1
 ```
