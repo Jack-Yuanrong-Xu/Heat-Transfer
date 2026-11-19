@@ -51,7 +51,7 @@ Substituting the dimentionless groups into the equation
 ```
 we can obtain
 ```math
-\frac{T_i - T_\infty}{t_c} \frac{\partial \theta}{\partial \tau} = alpha \frac{T_i - T_\infty}{L_c^2} \frac{\partial^2 \theta}{\partial \xi^2}
+\frac{T_i - T_\infty}{t_c} \frac{\partial \theta}{\partial \tau} = \alpha \frac{T_i - T_\infty}{L_c^2} \frac{\partial^2 \theta}{\partial \xi^2}
 ```
 cancelling the term $(T_i-T_\infty)$ and regrouping we get:
 ```math
