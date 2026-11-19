@@ -81,5 +81,5 @@ Our dimnetionless equation becomes:
 ```
 
 **Interpretation** \
-Fo is the ratio of the time elapsed $t$ to the characteristicdiffusion time across the wall, $t_c = L^2/\alpha$.
+Fo is the ratio of the time elapsed $t$ to the characteristic diffusion time across the wall, $t_c = L^2/\alpha$.
 
