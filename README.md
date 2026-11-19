@@ -27,7 +27,7 @@ the equation becomes:
 
 ## Initial Conditions
 - Uniform temperature
-$T(x, 0) = T_0$
+$T(x, 0) = T_i$
 ## Boundary Conditions
 - Fixed temperature at both faces (Dirichlet)
 $T(0,t) = T_s, \quad T(L,t) = T_s$
@@ -83,3 +83,17 @@ Our dimnetionless equation becomes:
 **Interpretation** \
 Fo is the ratio of the time elapsed $t$ to the characteristic diffusion time across the wall, $t_c = L^2/\alpha$.
 
+## Rewriting Initial and Boundary Conditions
+We will rewrite the IC and BC's from $T(x,t)$ format to using the dimensionless variables $\theta(\xi,\mathrm{Fo})$ format.\
+Recall that
+```math
+\theta = \frac{T-T_\infty}{T_i - T_\infty}, \qquad \xi = \frac{x}{L_c}, \qquad \tau = \frac{t}{t_c}
+```
+
+**IC**\
+```math
+T(x,0) = T_i,\
+t = 0,\
+\tau = 0,\
+\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1, 0 < \xi < 1
+```
