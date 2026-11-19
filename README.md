@@ -90,7 +90,7 @@ Recall that
 \theta = \frac{T-T_\infty}{T_i - T_\infty}, \qquad \xi = \frac{x}{L_c}, \qquad \tau = \frac{t}{t_c}
 ```
 
-**IC**
+**IC:** 
 ```math
 T(x,0) = T_i,\qquad
 t = 0,\qquad
@@ -100,4 +100,33 @@ t = 0,\qquad
 We get:
 ```math
 \theta (\xi, 0) = 1, \qquad 0 < \xi < 1
+```
+**BC**
+Left face:
+```math
+T(0,t) = T_\infty,
+```
+```math
+x=0, \qquad \xi = 0.
+```
+```math
+\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1
+```
+So
+```math
+\theta(0,Fo) = 1
+```
+
+Right Face:
+```math
+T(L,t) = T_\infty,
+```
+```math
+x=L l \qquad \xi = 1.
+```math
+\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1
+```
+So
+```math
+\theta(1,Fo) = 1
 ```
