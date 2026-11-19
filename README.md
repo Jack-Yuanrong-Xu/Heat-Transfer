@@ -92,16 +92,20 @@ Recall that
 
 **IC:** 
 ```math
-T(x,0) = T_i,\qquad
+T(x,0) = T_i,
+```
+```math
 t = 0,\qquad
 \tau = 0,\qquad
+```
+```math
 \theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1, 
 ```
 We get:
 ```math
 \theta (\xi, 0) = 1, \qquad 0 < \xi < 1
 ```
-**BC**
+**BC:**\
 Left face:
 ```math
 T(0,t) = T_\infty,
@@ -123,6 +127,7 @@ T(L,t) = T_\infty,
 ```
 ```math
 x=L l \qquad \xi = 1.
+```
 ```math
 \theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1
 ```
