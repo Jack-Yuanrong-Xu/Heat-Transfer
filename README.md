@@ -80,6 +80,6 @@ Our dimnetionless equation becomes:
 
 ```
 
-**Interpretation.** \
+**Interpretation** \
 Fo is the ratio of the time elapsed to the diffusion time across the wall, $L^2/\alpha$.
 
