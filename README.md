@@ -156,3 +156,8 @@ regrouping, we get:
 ```math
 \frac{X'}{X} = \frac{\tau"}{\tau}.
 ```
+Since each side of equaiton depends on different independent variables, we set:
+```math
+\frac{X'}{X} = -\lambda = \frac{\tau"}{\tau}
+
+```
