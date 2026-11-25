@@ -141,3 +141,10 @@ Let us set
 ```math
 \theta (\xi, \mathrm{Fo}) = X(\xi)\tau(\mathrm{Fo})
 ```
+and
+```math
+\frac{\partial\theta}{\partial\xi} = \tau \frac{\mathrm{d}X}{\mathrm{d}\xi},
+\qquad 
+\frac{\partial\theta}{\partial\mathrm{Fo}} = X \frac{\mathrm{d}\tau}{\mathrm{d}\mathrm{Fo}}.
+
+```
