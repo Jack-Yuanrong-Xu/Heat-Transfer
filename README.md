@@ -145,6 +145,14 @@ and
 ```math
 \frac{\partial\theta}{\partial\xi} = \tau \frac{\mathrm{d}X}{\mathrm{d}\xi},
 \qquad 
-\frac{\partial\theta}{\partial\mathrm{Fo}} = X \frac{\mathrm{d}\tau}{\mathrm{d}\mathrm{Fo}}.
+\frac{\partial^2\theta}{\partial\mathrm{Fo}^2} = X \frac{\mathrm{d}^2\tau}{\mathrm{d}\mathrm{Fo}^2}.
 
+```
+Substituting back in to the dimensionless heat equation, we have:
+```math
+\tau X'= X \tau",
+```
+regrouping, we get:
+```math
+\frac{X'}{X} = \frac{\tau"}{\tau}.
 ```
