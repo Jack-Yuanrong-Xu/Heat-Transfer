@@ -169,7 +169,7 @@ Since neither side of equaiton depends on eachothers' independent variables, we 
 ```
 
 ## Bibliography
-1. https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engineers_%28Lebl%29/4%3A_Fourier_series_and_PDEs/4.06%3A_PDEs_separation_of_variables_and_the_heat_equation \
-2. https://www.math.toronto.edu/ivrii/PDE-textbook/Chapter4/S4.1.html \
-3. https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-fall-2006/d11b374a85c3fde55ec971fe587f8a50_heateqni.pdf \
+1. https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engineers_%28Lebl%29/4%3A_Fourier_series_and_PDEs/4.06%3A_PDEs_separation_of_variables_and_the_heat_equation
+2. https://www.math.toronto.edu/ivrii/PDE-textbook/Chapter4/S4.1.html
+3. https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-fall-2006/d11b374a85c3fde55ec971fe587f8a50_heateqni.pdf
 4. 
