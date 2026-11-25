@@ -139,5 +139,5 @@ So
 ## Separation of Variables (for Analytical Solution)
 Let us set 
 ```math
-\theta (Fo, \xi) = X(\xi)\tau(\mathrm{Fo})
+\theta (\xi, \mathrm{Fo}) = X(\xi)\tau(\mathrm{Fo})
 ```
