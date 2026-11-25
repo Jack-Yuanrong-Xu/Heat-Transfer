@@ -135,3 +135,9 @@ So
 ```math
 \theta(1,Fo) = 1
 ```
+
+## Separation of Variables (for Analytical Solution)
+Let us set 
+```math
+\theta (Fo, \xi) = X(\xi)\tau(\mathrm{Fo})
+```
