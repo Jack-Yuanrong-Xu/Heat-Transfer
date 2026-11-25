@@ -117,7 +117,7 @@ x=0, \qquad \xi = 0.
 ```
 Thus
 ```math
-\theta = \frac{T_\infty-T_\infty}{T_i-T_\infty} = 1,
+\theta = \frac{T_\infty-T_\infty}{T_i-T_\infty} = 0,
 ```
 Thus
 ```math
@@ -135,7 +135,7 @@ x=L, \qquad \xi = 1.
 ```
 Thus
 ```math
-\theta = \frac{T_\infty-T_\infty}{T_i-T_\infty} = 1,
+\theta = \frac{T_\infty-T_\infty}{T_i-T_\infty} = 0,
 ```
 thus
 ```math
