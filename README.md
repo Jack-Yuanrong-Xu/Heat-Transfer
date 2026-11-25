@@ -117,11 +117,11 @@ x=0, \qquad \xi = 0.
 ```
 Thus
 ```math
-\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1,
+\theta = \frac{T_\infty-T_\infty}{T_i-T_\infty} = 1,
 ```
 Thus
 ```math
-\theta(0,Fo) = 1.
+\theta(0,Fo) = 0.
 ```
 
 Right Face:
@@ -135,11 +135,11 @@ x=L, \qquad \xi = 1.
 ```
 Thus
 ```math
-\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1,
+\theta = \frac{T_\infty-T_\infty}{T_i-T_\infty} = 1,
 ```
 thus
 ```math
-\theta(1,Fo) = 1.
+\theta(1,Fo) = 0.
 ```
 
 ## Separation of Variables (for Analytical Solution)
