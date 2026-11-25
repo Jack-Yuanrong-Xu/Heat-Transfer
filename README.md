@@ -107,33 +107,39 @@ We get:
 ```
 **BC:**\
 Left face:
+Since
 ```math
 T(0,t) = T_\infty,
 ```
+where
 ```math
 x=0, \qquad \xi = 0.
 ```
+Thus
 ```math
-\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1
+\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1,
 ```
-So
+Thus
 ```math
-\theta(0,Fo) = 1
+\theta(0,Fo) = 1.
 ```
 
 Right Face:
+Since
 ```math
 T(L,t) = T_\infty,
 ```
+where
 ```math
-x=L l \qquad \xi = 1.
+x=L, \qquad \xi = 1.
 ```
+Thus
 ```math
-\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1
+\theta = \frac{T_i-T_\infty}{T_i-T_\infty} = 1,
 ```
-So
+thus
 ```math
-\theta(1,Fo) = 1
+\theta(1,Fo) = 1.
 ```
 
 ## Separation of Variables (for Analytical Solution)
