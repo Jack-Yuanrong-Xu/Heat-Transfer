@@ -169,12 +169,12 @@ Since neither side of equaiton depends on eachothers' independent variables, we 
 ```
 This results in:
 ```math
-x'  = -\lambda X , \qquad and, \tau" = - \lambda \tau.
+x'  = -\lambda X , \qquad and \qquad \tau" = - \lambda \tau.
 ```
 
 Looking at the first equation, the possible and common solution is to have 
 ```math
-X(\xi)= e^{-\lambda \xi}, and X' = -\lambda e^{\lambda \xi}.
+X(\xi)= e^{-\lambda \xi}, \qquad and \qquad X' = -\lambda e^{\lambda \xi}.
 ```
 Based on Euler's Formula :
 ```math
@@ -187,7 +187,7 @@ X = cos \xi -\lambda sin \xi
 Now, we look at $\tau(\mathrm{Fo})$,
 THe possible solution is:
 ```math
-\tau(\mathrm{Fo}) = e^{\sqrt{-\lambda}\mathrm{Fo}}, and \tau" = -\lambda e^{\sqrt{-\lambda}\mathrm{Fo}}
+\tau(\mathrm{Fo}) = e^{\sqrt{-\lambda}\mathrm{Fo}}, \qquad and \qquad \tau" = -\lambda e^{\sqrt{-\lambda}\mathrm{Fo}}
 ```
 To deal with $\sqrt{-\lambda}$, we can set:
 ```math
