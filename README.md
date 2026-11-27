@@ -167,7 +167,36 @@ Since neither side of equaiton depends on eachothers' independent variables, we 
 \frac{X'}{X} = -\lambda = \frac{\tau"}{\tau}
 
 ```
+This results in:
+```math
+x'  = -\lambda X , \qquad and, \tau" = - \lambda \tau.
+```
 
+Looking at the first equation, the possible and common solution is to have 
+```math
+X(\xi)= e^{-\lambda \xi}, and X' = -\lambda e^{\lambda \xi}.
+```
+Based on Euler's Formula :
+```math
+e^{i\theta} = cos \theta + \mathrm{i} sin\theta
+```
+X can be rewritten as :
+```math
+X = cos \xi -\lambda sin \xi
+```
+Now, we look at $\tau(\mathrm{Fo})$,
+THe possible solution is:
+```math
+\tau(\mathrm{Fo}) = e^{\sqrt{-\lambda}\mathrm{Fo}}, and \tau" = -\lambda e^{\sqrt{-\lambda}\mathrm{Fo}}
+```
+To deal with $\sqrt{-\lambda}$, we can set:
+```math
+\sqrt{-\lambda} = k, and -\lambda = k^2.
+```
+Implementing Euler's Formula again, we have:
+```math
+\tau = cos \mathrm{Fo} + \mathrm{k} sin \mathrm{Fo}
+```
 ## Bibliography
 1. https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engineers_%28Lebl%29/4%3A_Fourier_series_and_PDEs/4.06%3A_PDEs_separation_of_variables_and_the_heat_equation
 2. https://www.math.toronto.edu/ivrii/PDE-textbook/Chapter4/S4.1.html
